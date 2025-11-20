@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Escolar - [Nombre del Centro]</title>
+    <link rel="stylesheet" href="css/styles.css"> 
+</head>
+<body>
+    
+    <header>
+        <h1>Blog de Noticias Escolares</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="acerca.html">Acerca de</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        
+        <article class="destacada">
+            <h2>🎉 [Título de la Noticia Destacada]</h2>
+            <p class="fecha">Publicado el 20 de noviembre de 2025</p>
+                        <p>Este es un resumen de la noticia más importante del centro educativo...</p>
+            <a href="noticia1.html">Leer más</a>
+        </article>
+        
+        <section id="noticias-recientes">
+            <h3>Otras Noticias</h3>
+            <article>
+                <h4>📚 [Título de la Noticia 2]</h4>
+                <p>Breve descripción de la noticia reciente.</p>
+                <a href="noticia2.html">Continuar leyendo</a>
+            </article>
+            <article>
+                <h4>⚽ [Título de la Noticia 3]</h4>
+                <p>Breve descripción de otra noticia reciente.</p>
+                <a href="noticia3.html">Continuar leyendo</a>
+            </article>
+            </section>
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Blog Escolar. Todos los derechos reservados.</p>
+        <p>Configurado en un servidor gratuito: **[Indicar si es GitHub Pages o Netlify]**</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
